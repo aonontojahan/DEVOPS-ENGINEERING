@@ -1,0 +1,55 @@
+System Report
+Generated : Tue Dec  9 18:11:11 +06 2025
+
+------------HEALTH---------------
+Displaying CPU load
+top - 18:11:12 up 19 min,  1 user,  load average: 0.52, 0.39, 0.26
+Tasks: 210 total,   1 running, 209 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  8.0 us, 12.0 sy,  0.0 ni, 80.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3897.3 total,   1905.8 free,   1302.4 used,    960.0 buff/cache     
+MiB Swap:   3897.0 total,   3897.0 free,      0.0 used.   2594.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     18 root      20   0       0      0      0 I   5.6   0.0   0:02.58 rcu_pre+
+   3122 aononto+  20   0   14932   5436   3292 R   5.6   0.1   0:00.01 top
+      1 root      20   0   23464  14360   9424 S   0.0   0.4   0:04.60 systemd
+   3078 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   3089 aononto+  20   0   11672   3648   2004 S   0.0   0.1   0:00.00 bash
+   3117 aononto+  20   0   11672   3712   2068 S   0.0   0.1   0:00.00 bash
+   3121 aononto+  20   0   11672   3648   2004 S   0.0   0.1   0:00.00 bash
+   3125 aononto+  20   0    8744   1888   1768 S   0.0   0.0   0:00.00 tail
+Displaying RAM information 
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.3Gi       1.9Gi        52Mi       960Mi       2.5Gi
+Swap:          3.8Gi          0B       3.8Gi
+Displaying DISK information
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           390M  1.6M  389M   1% /run
+/dev/sda2        78G   12G   62G  16% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+efivarfs        256K  151K  101K  60% /sys/firmware/efi/efivars
+/dev/sda1       1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           390M  124K  390M   1% /run/user/1000
+Displaying FOLDER size
+Displaying SYSTEM RUN TIME
+ 18:11:12 up 19 min,  1 user,  load average: 0.52, 0.39, 0.26
+
+---------PRICESSES--------------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.3  0.3  23464 14360 ?        Ss   17:51   0:04 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    17:51   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    17:51   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   17:51   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I    17:51   0:00 [kworker/0:1-events]
+
+--------------LOG ANALYSIS---------
+Showing first 5 lines of LOG
+Showing last % lines of  LOG
+Showing ERROR line
+Extracting first and secound column
+Shorting components
